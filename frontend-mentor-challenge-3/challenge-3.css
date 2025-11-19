@@ -1,0 +1,66 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(14, 13, 13);
+}
+
+.profile-preview{
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 450px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.profile-preview img{
+  height: 100px;
+  border-radius: 50px;
+}
+
+.name{
+  font-size: 23px;
+  color: white;
+  margin-bottom: -10px;
+  font-family: arial;
+}
+
+.city{
+  font-size: 13px;
+  font-family: arial;
+  color: rgb(236, 236, 19);
+  margin-bottom: 3px;
+}
+
+.job{
+  color: gray;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+}
+.btn{
+  background-color: rgb(94, 94, 94);
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 7px;
+  width: 270px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+  
